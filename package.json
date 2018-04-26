@@ -1,0 +1,50 @@
+{
+  "name": "test_reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest"
+  },
+  "author": "Mohamad Ilham Ramadhan",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-regular": "^5.0.9",
+    "@fortawesome/fontawesome-free-solid": "^5.0.9",
+    "@fortawesome/react-fontawesome": "0.0.18",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "file-loader": "^1.1.11",
+    "font-awesome": "^4.7.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^22.4.3",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.3.1",
+    "react-hot-loader": "^4.0.0",
+    "react-test-renderer": "^16.3.1",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(s?css|less)$": "identity-obj-proxy"
+    }
+  }
+}
